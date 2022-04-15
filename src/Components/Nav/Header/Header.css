@@ -1,0 +1,27 @@
+.Header {
+  /* height: 100vh; */
+  /* background-color: rgb(237, 230, 230); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+}
+
+.Header div{
+  width: 93%;
+  margin: 0 auto;
+}
+.Header div  h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 800;
+  box-shadow: 0 0 10px rgba(0 , 0, 0, 0.2);
+  z-index: 2;
+}
+
+.Header div  p {
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 500;
+}
