@@ -1,10 +1,13 @@
 import "./Footer.css";
-function Footer () {
+
+function Footer() {
   return (
     <footer className="Footer">
-      Best Sneakers in the world
+      <div className="container">
+        Best Sneakers in the world
+      </div>
     </footer>
   );
 }
- 
+
 export default Footer;
