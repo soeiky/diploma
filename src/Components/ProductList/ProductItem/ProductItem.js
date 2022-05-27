@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import classes from "./ProductItem.module.css";
+import classes from "./ProductItem.module.css"
 
 function ProductItem({ product }) {
   return (

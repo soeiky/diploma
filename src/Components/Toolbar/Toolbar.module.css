@@ -1,0 +1,16 @@
+.Toolbar {
+  background-color:  rgb(252, 252, 252) ;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Toolbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 620px) {
+  .Toolbar ul {
+    display: none;
+  }
+} 

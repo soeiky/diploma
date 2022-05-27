@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import Header from "../Components/Header/Header"
-import { getProduct } from "../data/Products";
+import { getProduct} from "../data/Products";
 
 function Product() {
   const params = useParams();

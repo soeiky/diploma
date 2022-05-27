@@ -1,7 +1,7 @@
-import Header from "../components/Header/Header";
+import Header from "../Components/Header/Header";
 import headerImage from "../assets/air-max.jpg";
-import ProductList from "../components/ProductList/ProductList";
-import { getProducts } from "../data/products";
+import ProductList from "../Components/ProductList/ProductList";
+import { getProducts } from "../data/Products";
 import Main from "../Components/Main/Main";
 
 function Products() {

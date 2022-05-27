@@ -1,15 +1,23 @@
-import headerImage from "../assets/new.jpg";
+import productImage from "../assets/new.jpg";
+import CategoryList from "../Components/CategoryList/CategoryList";
+
+
 import Header from "../Components/Header/Header";
-function Categories(){
+import { getCategories } from "../data/categories";
+
+function Categories() {
   return (
     <>
-      <Header
-        title="Pstjsgjfsd"
-        image={headerImage}>
-        Maybe the page you are looking for was moved or deletedzjfjghgf hhhdffh.
+      <div className="Products">
+      <Header  image={productImage} >
+      
+
       </Header>
+      </div>
+      <CategoryList categories={getCategories()} />
+
     </>
-    
   );
 }
+
 export default Categories;

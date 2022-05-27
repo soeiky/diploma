@@ -1,4 +1,5 @@
-import productImage from "../assets/how.jpg";
+import productImage from "../assets/nike.jpg";
+import Products from "../pages/Products";
 
 const products = [
   {
@@ -50,3 +51,4 @@ export function getProduct(productId) {
     )
   ];
 }
+export default Products;
