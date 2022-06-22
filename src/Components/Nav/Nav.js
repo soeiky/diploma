@@ -2,6 +2,7 @@ import classes from "./Nav.module.css";
 import Logo from "../ui/Logo/Logo";
 import NavToggle from "./NavToggle/NavToggle";
 import NavItem from "./Navitem/NavItem";
+import CartLink from "../CartLink/CartLink";
 
 function Nav() {
   return (
@@ -14,6 +15,7 @@ function Nav() {
           <NavItem url="/contacts">Contacts</NavItem>
         </ul>
         <NavToggle />
+        <CartLink/>
       </div>
     </nav>
   );

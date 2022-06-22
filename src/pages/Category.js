@@ -3,9 +3,11 @@ import Header from "../Components/Header/Header";
 import ProductList from "../Components/ProductList/ProductList";
  import { getCategory } from "../data/categories";
 import { getProducts } from "../data/Products";
+import CartButton from "../Components/CartButton/CartButton";
 function Category() {
 const params = useParams();
 const category = getCategory(params.categoryId);
+
 
 if (!category) {
    return null;
@@ -18,6 +20,7 @@ if (!category) {
        
       </Header> 
       <ProductList products={getProducts(category.categoryId)}/>
+      <CartButton productId={params.productId} />
     </div>
   );
 }

@@ -1,13 +1,13 @@
-import backpackImage from "../assets/air-max.jpg";
-import handbagImage from "../assets/air-max.jpg";
-import suitcaseImage from "../assets/air-max.jpg";
+import backpackImage from "../assets/lining.jpg";
+import handbagImage from "../assets/nike.shoes.jpg";
+import suitcaseImage from "../assets/new.b.jpg";
 
 
 const categories = [
   {
     
     categoryId: "Basketball",
-    title: "Backpack",
+    title: "Li-ning",
     image: backpackImage,
     description:"Bags that are carried over the shoulders with the help of two thick straps are called backpacks. Traditionally, backpacks have been large-sized, especially used by students to carry books, or travelers and hikers to carry food, camera or water bottles.",
   
@@ -15,7 +15,7 @@ const categories = [
   {
   
     categoryId: "Football",
-    title: "Handbags",
+    title: "Nike",
     image: handbagImage,
     description:"Bags that are carried over the shoulders with the help of two thick straps are called backpacks. Traditionally, backpacks have been large-sized, especially used by students to carry books, or travelers and hikers to carry food, camera or water bottles.",
     
@@ -23,7 +23,7 @@ const categories = [
   {
   
     categoryId: "Sport",
-    title: "Suitcases",
+    title: "New Balance",
     image: suitcaseImage,
     description:"Bags that are carried over the shoulders with the help of two thick straps are called backpacks. Traditionally, backpacks have been large-sized, especially used by students to carry books, or travelers and hikers to carry food, camera or water bottles.",
     
