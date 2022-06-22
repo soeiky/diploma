@@ -4,15 +4,16 @@ import Products from "../pages/Products";
 const products = [
   {
     image: productImage,
-    productId: "hazelnut",
-    title: "Hazelnut",
-    description: `When the fruit is ripe, it is almost always handpicked, using either "selective picking", where only the ripe fruit is removed, or "strip-picking", where all of the fruit is removed from a limb all at once. Selective picking is often used to produce higher quality coffee because the cherries are picked at their ripest. Strip-picking is indiscriminate and will harvest unripe, ripe, and over-ripe fruit. To improve quality after strip-picking, the harvest must be sorted.`,
+    productId: "Nike Waffle One",
+    title: "Nike Waffle One",
+    description: `Bringing a new look to the Waffle sneaker family, the Nike Waffle One balances everything you love about heritage Nike running with fresh innovations. Its new TPU heel clip adds energy while a mixture of transparent mesh (let that sock game shine) and retro suedes give texture and depth. The updated Waffle outsole provides a level of support and traction you have to feel to believe.`,
     price: 10,
   },
   {
     image: productImage,
     productId: "dark-roast",
     title: "Dark roast",
+    categoryId: "Basketball",
     description: `The Asian palm civet eats coffee berries and excretes the beans. Because the civet prefers the taste of the ripest cherries, the civet selectively harvests the cherries. Its digestive system then processes the beans by breaking down the mucilage and pulp surrounding the seed. Once the seeds are excreted by the civet, they can be harvested, processed and sold as a niche product. Once they are finally processed, these beans are called kopi luwak, and are often marketed as a rare and expensive coffee.`,
     price: 12,
   },
