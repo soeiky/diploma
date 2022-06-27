@@ -1,0 +1,25 @@
+.cart-icons {
+  width: 4px;
+  height: 5px;
+  position: relative;
+  justify-content: center;
+}
+.number {
+  position: absolute;
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(34, 12, 12);
+}
+
+.CartButton {
+  background-color: black;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Muli, sans-serif;
+  margin: 5px;
+  padding: 5px 7px;
+}
+.CartButton:hover {
+  background-color: red;
+}

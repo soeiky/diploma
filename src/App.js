@@ -8,6 +8,9 @@ import Category from "./pages/Category";
 import Contacts from "./pages/Contacts";
 import Product from "./pages/Product";
 import Products from "./pages/Products";
+import Checkout from "./pages/Checkout";
+import Auth from "./pages/Auth";
+
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
           <Route path="/categories" element={<Categories />} />
           <Route path="/categories/:categoryId" element={<Category />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/checkout" element={<Checkout/>} />
+          <Route path="/auth" element={<Auth/>} />
           <Route path="*" element={<NotFound />} />
+
         </Routes>
       </Layout>
     </div>

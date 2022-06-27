@@ -15,7 +15,7 @@ function Nav() {
           <NavItem url="/contacts">Contacts</NavItem>
         </ul>
         <NavToggle />
-        <CartLink/>
+        <CartLink />
       </div>
     </nav>
   );

@@ -4,8 +4,8 @@ import Products from "../pages/Products";
 const products = [
   {
     image: productImage,
-    productId: "Nike Waffle One",
-    title: "Nike Waffle One",
+    productId: "li-ning",
+    title: "Li-ning",
     description: `Bringing a new look to the Waffle sneaker family, the Nike Waffle One balances everything you love about heritage Nike running with fresh innovations. Its new TPU heel clip adds energy while a mixture of transparent mesh (let that sock game shine) and retro suedes give texture and depth. The updated Waffle outsole provides a level of support and traction you have to feel to believe.`,
     price: 10,
   },
