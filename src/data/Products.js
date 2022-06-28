@@ -1,42 +1,133 @@
-import productImage from "../assets/nike.jpg";
+
+import setImage from "../assets/set.jpg";
+import realImage from "../assets/real.jpg";
+import bigImage from "../assets/big.jpg";
+import ternImage from "../assets/tern.jpg";
+import strangeImage from "../assets/strange.jpg";
+import letImage from "../assets/let.jpg";
+import blazerImage from "../assets/blazer.jpg";
+import jordanImage from "../assets/jordan.jpg";
+import nikyImage from "../assets/niky.jpg";
+import summershoesImage from "../assets/summershoes.jpg";
+import blackImage from "../assets/black.jpg";
+
 import Products from "../pages/Products";
 
 const products = [
   {
-    image: productImage,
-    productId: "li-ning",
-    title: "Li-ning",
-    description: `Bringing a new look to the Waffle sneaker family, the Nike Waffle One balances everything you love about heritage Nike running with fresh innovations. Its new TPU heel clip adds energy while a mixture of transparent mesh (let that sock game shine) and retro suedes give texture and depth. The updated Waffle outsole provides a level of support and traction you have to feel to believe.`,
-    price: 10,
+    image: setImage,
+    productId: "logo",
+    categoryId: "Women",
+    title: "Nike logo ",
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 3999,
   },
   {
-    image: productImage,
-    productId: "dark-roast",
-    title: "Dark roast",
-    categoryId: "Basketball",
-    description: `The Asian palm civet eats coffee berries and excretes the beans. Because the civet prefers the taste of the ripest cherries, the civet selectively harvests the cherries. Its digestive system then processes the beans by breaking down the mucilage and pulp surrounding the seed. Once the seeds are excreted by the civet, they can be harvested, processed and sold as a niche product. Once they are finally processed, these beans are called kopi luwak, and are often marketed as a rare and expensive coffee.`,
-    price: 12,
+    image: realImage,
+    productId: "Jordan",
+    categoryId: "Women",
+    title: "Jordan Nike",
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 4399,
+  },
+
+  {
+    image: bigImage,
+    productId: "RU",
+    categoryId: "Women",
+    title: "Nike RU",
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 2999,
   },
   {
-    image: productImage,
-    productId: "house-blend",
-    title: "House blend",
-    description: `Two methods are primarily used to process coffee berries. The first, "wet" or "washed" process, has historically usually been carried out in Central America and areas of Africa. The flesh of the cherries is separated from the seeds and then the seeds are fermented – soaked in water for about two days. This softens the mucilage, which is a sticky pulp residue that is still attached to the seeds. Then this mucilage is washed off with water.`,
-    price: 14,
+    image: ternImage,
+    productId: "Male",
+    categoryId: "Men",
+    title: "Nike Male",
+    description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 5099,
   },
   {
-    image: productImage,
-    productId: "light-roast",
-    title: "Light roast",
-    description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
-    price: 13,
+    image: strangeImage,
+    productId: "Blazer Mix",
+    categoryId: "Men",
+    title: "Nike Blazer Mix",
+    description: `    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 6099,
   },
   {
-    image: productImage,
-    productId: "medium-roast",
-    title: "Medium roast",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
-    price: 11,
+    image: letImage,
+    productId: "SA",
+    categoryId: "Men",
+    title: "Nike ",
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 2399,
+  },
+  {
+    image: blazerImage,
+    productId: "White air max",
+
+    categoryId: "Max",
+    title: "Nike white air max",
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 2999,
+  },
+  {
+    image: jordanImage,
+    productId: "Black air max",
+
+    categoryId: "Max",
+    title: "Nike black air max",
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 3299,
+  },
+  {
+    image: nikyImage,
+    productId: "Black-white air max",
+
+    categoryId: "Max",
+    title: "Nike black-white air max",
+    description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 2560,
+  },
+  {
+    image: summershoesImage,
+    productId: "Max",
+
+    categoryId: "Women",
+    title: "Nike Women",
+    description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 1299,
+  },
+  {
+    image: nikyImage,
+    productId: "Men",
+
+    categoryId: "Men",
+    title: "Nike Men",
+    description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 1399,
+  },
+  {
+    image: blackImage,
+    productId: "Tr23",
+
+    categoryId: "Max",
+    title: "Nike max",
+    description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 1500,
   },
 ];
 

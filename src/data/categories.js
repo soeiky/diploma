@@ -9,7 +9,7 @@ const categories = [
     categoryId: "Sport shoes",
     title: "Li-ning",
     image: backpackImage,
-    description:"Bags that are carried over the shoulders with the help of two thick straps are called backpacks. Traditionally, backpacks have been large-sized, especially used by students to carry books, or travelers and hikers to carry food, camera or water bottles.",
+    description:"China's premier sports brand. Named for and founded by, world class gymnast, Mr. Li Ning. Established in 1990.Moving Innovation Female Smart Moving Running Shoes, Standard Black/Standard White/Flashing Red/Turkish Sea.Li-Ning lining online shop sale original, authentic new badminton, table tennis, running, trainning, basketball shoes, clothing and accessory from shop lining.",
   
   },
   {
@@ -17,7 +17,7 @@ const categories = [
     categoryId: "Nike new",
     title: "Nike",
     image: handbagImage,
-    description:"Bags that are carried over the shoulders with the help of two thick straps are called backpacks. Traditionally, backpacks have been large-sized, especially used by students to carry books, or travelers and hikers to carry food, camera or water bottles.",
+    description:"Nike shoes provide excellent support – Nike shoes comes with a herringbone pattern and a solid rubber, which adds to the comfort and support of users. – Nike shoes are lightweight and durable – Despite provides exceptional comfort, flexibility, of Nike shoes are very light.",
     
   },
   {
@@ -25,7 +25,7 @@ const categories = [
     categoryId: "Nb",
     title: "New Balance",
     image: suitcaseImage,
-    description:"Bags that are carried over the shoulders with the help of two thick straps are called backpacks. Traditionally, backpacks have been large-sized, especially used by students to carry books, or travelers and hikers to carry food, camera or water bottles.",
+    description:"(NB), best known as simply New Balance, is one of the world's major sports footwear and apparel manufacturers.What are New Balance shoes known for New Balance is known for its comfortable sneakers. More and more athletes have been choosing to wear New Balance sneakers from basketball courts to soccer fields.",
     
   },
  
