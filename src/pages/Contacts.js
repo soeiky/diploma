@@ -1,12 +1,17 @@
-import headerImage from "../assets/new.jpg";
+import headerImage from "../assets/first.jpg";
 import Header from "../Components/Header/Header";
 function Contacts(){
   return (
     <>
       <Header
-        title=""
+        title="Sneakers"
         image={headerImage}>
-        Maybe the page you are looking for was moved or deleted.
+         <h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+          quasi nulla, harum asperiores excepturi dolor corrupti repellat sed
+          odio consequatur dolorem! Reprehenderit quas mollitia neque quaerat
+          dolorem accusamus vel nobis!
+        </h4>
       </Header>
     </>
     

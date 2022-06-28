@@ -1,7 +1,5 @@
-import productImage from "../assets/new.jpg";
+import productImage from "../assets/wan.avif";
 import CategoryList from "../Components/CategoryList/CategoryList";
-
-
 import Header from "../Components/Header/Header";
 import { getCategories } from "../data/categories";
 

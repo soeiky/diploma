@@ -7,22 +7,19 @@ import CartButton from "../Components/CartButton/CartButton";
 function Category() {
 const params = useParams();
 const category = getCategory(params.categoryId);
-
-
 if (!category) {
-   return null;
-   }
-  
-  return (
-    <div className="Category">
-    <Header  title={category.title} image={category.image}>
-        {category.description}
-       
-      </Header> 
-      <ProductList products={getProducts(category.categoryId)}/>
-      <CartButton productId={params.productId} />
-    </div>
-  );
+  return null;
 }
+
+return (
+  <div className="Category">
+    <Header title={category.title2} image={category.headerImage}>
+      {category.description}
+    </Header>
+    <ProductList products={getProducts(category.categoryId)} />
+  </div>
+);
+}
+
 
 export default Category;
