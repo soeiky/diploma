@@ -1,6 +1,6 @@
-import Header from "../components/Header/Header";
+import Header from "../Components/Header/Header";
 import image from "../assets/third.jpg";
-import CartDisplay from "../components/CartDisplay/CartDisplay";
+import CartDisplay from "../Components/CartDisplay/CartDisplay";
 import { Link } from "react-router-dom";
 
 function Cart() {

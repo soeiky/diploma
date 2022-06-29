@@ -1,4 +1,3 @@
-
 import setImage from "../assets/set.jpg";
 import realImage from "../assets/real.jpg";
 import bigImage from "../assets/big.jpg";

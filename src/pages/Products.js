@@ -1,7 +1,7 @@
 import Header from "../Components/Header/Header";
 import image from "../assets/header.jpg";
 import ProductList from "../Components/ProductList/ProductList";
-import { getProducts } from "../data/Products";
+import { getProducts } from "../data/Products"
 import Main from "../Components/Main/Main";
 
 function Products() {

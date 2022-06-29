@@ -1,27 +1,14 @@
-
-
-.Nav {
-  background-color: rgb(2, 1, 1);
-  color: rgb(236, 206, 206);
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+.NavItem a {
+  display: block;
+  padding: 1rem 3rem;
+  color: rgb(155, 152, 152);
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
 }
-.Nav .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 987px;
-  margin: 0 auto;
-  padding: 0 2rem;
+.NavItem a.active {
+  border-color: rgb(122, 116, 116);
 }
-.Nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-@media (max-width: 600px) {
-  .Nav ul {
-    display: none;
-  }
+.NavItem a:hover {
+  background-color: rgba(250, 244, 244, 0.24);
 }
