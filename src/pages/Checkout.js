@@ -1,9 +1,9 @@
-import Header from "../components/Header/Header";
-import image from "../assets/home.jpeg";
+import Header from "../Components/Header/Header";
+import image from "../assets/nike.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
-import CartDisplay from "../components/CartDisplay/CartDisplay";
+import CartDisplay from "../Components/CartDisplay/CartDisplay";
 import { useEffect } from "react";
 
 function Checkout() {
