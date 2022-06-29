@@ -1,28 +1,23 @@
+import productImage from "../assets/air-monarc.jpg";
+import ProductList from "../Components/ProductList/ProductList";
+import { getProducts } from "../data/Products";
+
 import Header from "../Components/Header/Header";
-import image from "../assets/header.jpg";
-import { useParams } from "react-router-dom";
-import { getProducts } from "../data/Products"
+import "./Product.css"
 
-import  "./Product.css";
-
-function Product() {
-  const params = useParams();
-  const product = getProduct(params.productId);
-
-  if (!product) {
-    return null;
-  }
-
+function Products() {
   return (
-    <div className="Product">
-      <Header image={product.image} title={product.title}>
-        <div className="price">{product.price}</div>
-        
+    <>
+      <div className="Products">
+      <Header title="lorem insup dolor" image={productImage} >
+     <h4> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur obcaecati praesentium officia quia autem, veritatis accusantium veniam ad suscipit.</h4>
 
-        {product.description}
       </Header>
-    </div>
+      </div>
+      <ProductList products={getProducts()} />
+
+    </>
   );
 }
 
-export default Product;
+export default Products;

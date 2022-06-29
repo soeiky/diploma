@@ -2,7 +2,7 @@ import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
 import Products from "./pages/Products";
 import { Route, Routes } from "react-router-dom";
-import Layout from "./components/Layout/Layout";
+import Layout from "./Components/Layout/Layout";
 import Product from "./pages/Product";
 import NotFound from "./pages/NotFound";
 import Categories from "./pages/Categories";
