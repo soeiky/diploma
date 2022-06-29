@@ -1,18 +1,20 @@
-import Product from "../../pages/Product";
 import "./Header.css";
 
-function Header({image, title, children}) {
+function Header({ image, title, children,   }) {
   return (
-    <header>
-      <div className="overlay">
-        <img src={image}/>
-        <h1>{title}</h1>
-       
-        <p>{children}</p>
-        <br></br>
-
+    <header className="Header">
+      <img src={image} alt="img"  />
+      <section>
         
-      </div>
+        <h1>
+           {title}
+        </h1>
+        
+        <p>{children}</p>
+        
+      </section>
+
+      
     </header>
   );
 }
