@@ -5,27 +5,23 @@ import { getCategories } from "../data/categories";
 import "./Home.css";
 
 
+
 function Home() {
   return (
     <>
-      <Header
-        className="Headerhome"
-        title="NIKE welcome to we stores"
-        image={headerImage}
-      >
-        <h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-          quasi nulla, harum asperiores excepturi dolor corrupti!
-        </h4>
+      <Header className="Headerhome" title="Welcome to flowers shop"  image={headerImage} >
+      <h4>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Angiospermae). The biological function of a flower is to facilitate reproduction, usually by providing a mechanism for the union of sperm with eggs.</h4>
+        
       </Header>
 
-      <div className="Category">
-        <h1>Categories</h1>
-      </div>
-      <CategoryList categories={getCategories()} />
-
       
+      <CategoryList categories={getCategories()}/>
+       
+
+ 
+        
     </>
   );
 }
+
 export default Home;

@@ -1,21 +1,25 @@
-import productImage from "../assets/wan.avif";
-import CategoryList from "../Components/CategoryList/CategoryList";
-import Header from "../Components/Header/Header";
-import { getCategories } from "../data/categories";
+import { useParams } from "react-router-dom";
+import Header from "../components/Header/Header";
+import ProductList from "../components/ProductList/ProductList";
+import { getCategory } from "../data/categories";
+import { getProducts } from "../data/products";
+function Category() {
+  const params = useParams();
+  const category = getCategory(params.categoryId);
 
-function Categories() {
+  if (!category) {
+    return null;
+  }
+  
   return (
-    <>
-      <div className="Products">
-      <Header  image={productImage} >
-      
-
+    <div className="Category">
+      <Header  title={category.title2} image={category.headerImage}>
+        {category.description}
+       
       </Header>
-      </div>
-      <CategoryList categories={getCategories()} />
-
-    </>
+      <ProductList products={getProducts(category.categoryId)}/>
+    </div>
   );
 }
 
-export default Categories;
+export default Category;
