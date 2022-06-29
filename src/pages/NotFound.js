@@ -5,10 +5,9 @@ function NotFound() {
   return (
     <>
       <Header
-        title="Store of shoes"
+        title="Phons,Laptops"
         image={headerImage}>
-        Maybe the page you are looking for was moved or deleted.
-      </Header>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit.</Header>
     </>
   );
 }
