@@ -1,37 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800 &family=Nunito+Sans:wght@200&display=swap');
-
-* {
+body {
   margin: 0;
-  font-family: 'EB Garamond', serif;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Bree Serif', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
+/* rgb(239, 234, 234); */
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-.container{
+.container {
   max-width: 987px;
   margin: 0 auto;
   padding: 0 1rem;
-  body {
-    margin: 0;
-    font-family: 'Bree Serif', serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: white;
-  }
-  /* rgb(239, 234, 234); */
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
-  
-  .container {
-    max-width: 987px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
+}
