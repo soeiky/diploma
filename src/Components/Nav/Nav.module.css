@@ -1,14 +1,29 @@
-.NavItem a {
-  display: block;
-  padding: 1rem 3rem;
-  color: rgb(155, 152, 152);
-  font-size: 1.2rem;
-  text-decoration: none;
-  border-bottom: 3px solid transparent;
+.Nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+color: black;}
+
+
+.Nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 1px;
+  background:  var(--white);
+  transition:  0.4s ease-out;
 }
-.NavItem a.active {
-  border-color: rgb(122, 116, 116);
+.Nav a:hover::after {
+  left: 0;
+  width: 100%;
 }
-.NavItem a:hover {
-  background-color: rgba(250, 244, 244, 0.24);
+  
+@media (max-width: 620px) {
+  .Nav {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
 }
