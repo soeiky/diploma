@@ -11,9 +11,10 @@ function Toolbar({ toggleDrawer }) {
         <Logo />
         <Nav />
         <NavToggle callback={toggleDrawer} />
+        <CartLink />
       </div>
     </nav>
   );
 }
 
-export default Toolbar; 
+export default Toolbar;
