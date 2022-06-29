@@ -1,7 +1,6 @@
 import axios from "axios";
 
 const { createSlice, createAsyncThunk } = require("@reduxjs/toolkit");
-
 const key = "AIzaSyDWqpLD6_5WfUtCsXjcTRUWC9X6EmgIsOA";
 const signInUrl = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=" + key;
 const signUpUrl = "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=" + key;
@@ -22,7 +21,7 @@ export const start = createAsyncThunk('auth/start', (data, thunkAPI) => {
 
 const authSlice = createSlice({
   name: "auth",
-  initialState: {
+  initialState: JSON.parse(localStorage.getItem('auth') ?? 'null') ?? {
     localId: null,
     idToken: null,
     error: null,
@@ -30,12 +29,10 @@ const authSlice = createSlice({
   },
   reducers: {
     init: (state, action) => {
-      state = {
-        localId: null,
-        idToken: null,
-        error: null,
-        loading: false,
-      }
+      state.localId = null;
+      state.idToken = null;
+      state.error = null;
+      state.loading = false;
     },
     loading: (state, action) => {
       state.loading = true;
