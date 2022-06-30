@@ -10,8 +10,6 @@ import nikyImage from "../assets/niky.jpg";
 import summershoesImage from "../assets/summershoes.jpg";
 import blackImage from "../assets/black.jpg";
 
-import Products from "../pages/Products";
-
 const products = [
   {
     image: setImage,
@@ -142,4 +140,4 @@ export function getProduct(productId) {
     )
   ];
 }
-export default Products;
+export default products;
