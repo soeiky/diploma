@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import CartButton from "../Components/CartButton/CartButton";
 import Header from "../Components/Header/Header";
 import { getProduct } from "../data/Products";
 import  "./Product.css";
@@ -19,6 +20,7 @@ function Product() {
 
         {product.description}
       </Header>
+      <CartButton />
     </div>
   );
 }
