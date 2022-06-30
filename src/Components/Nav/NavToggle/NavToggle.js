@@ -1,4 +1,4 @@
-import classes from "./NavToggle.module.css";
+import classes from "../NavToggle/NavToggle.module.css";
 
 function NavToggle({ callback }) {
   return (

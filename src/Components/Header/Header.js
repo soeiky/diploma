@@ -1,4 +1,5 @@
 import "./Header.css";
+import image from "../../assets/forheader.jpg"
 
 function Header({ image, title, children,   }) {
   return (
