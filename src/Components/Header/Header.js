@@ -1,10 +1,10 @@
 import "./Header.css";
-import image from "../../assets/forheader.jpg"
+import headerImage from "../../assets/one.jpg";
 
 function Header({ image, title, children,   }) {
   return (
     <header className="Header">
-      <img src={image} alt="img"  />
+      <img src={headerImage} alt="img"  />
       <section>
         
         <h1>
